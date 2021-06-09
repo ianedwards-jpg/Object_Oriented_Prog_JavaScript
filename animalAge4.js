@@ -16,32 +16,44 @@ var oldAnimals = new Array();
     for (let i = 0; i < animalFax.length; i++) {
 
         if (animalFax[i].Age > targetAge)  {
-        // oldAnimals.push(animalFax[i].Name + animalFax[i].Age);
-
-        // oldAnimals.push(animalFax[i].Name)
-        // oldAnimals.push(animalFax[i].Age);
-
+       
         oldAnimals.push({Name: animalFax[i].Name, Age: animalFax[i].Age})
 
-
-        // oldAnimals.push( {Name: animalFax[i].Name} + {Age: animalFax[i].Age});
-
-        // oldAnimals.push( "Name:" + animalFax[i].Name + "Age:" + animalFax[i].Age);
-        // oldAnimals.push(animalFax[i].Age);
         }
                       
      }
 
     //  console.log(JSON.stringify(oldAnimals[1]))
-     console.log((oldAnimals))
+     console.log((oldAnimals[1].Age))
+    //  console.log((oldAnimals))
 
 }
 
 compute();
+//End Program 
 
-//AnimalFax.Length == Good || console.log(JSON.stringify(animalFax.length))
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Notes
 //console.log(JSON.stringify(animalFax[1].Name)) ALWAYS PUT THE .Identifier AFTER THE SQUARE BRACKETS 
 
+//Tests 
+//AnimalFax.Length == Good || console.log(JSON.stringify(animalFax.length))
+
+//Attempted Push Statements 
+    // oldAnimals.push(animalFax[i].Name + animalFax[i].Age);
+    // oldAnimals.push(animalFax[i].Name)
+    // oldAnimals.push(animalFax[i].Age);
+    // oldAnimals.push( {Name: animalFax[i].Name} + {Age: animalFax[i].Age});
+    // oldAnimals.push( "Name:" + animalFax[i].Name + "Age:" + animalFax[i].Age);
+    // oldAnimals.push(animalFax[i].Age);
+
+//Attempted If Statements 
+    // if (animalFax[i].Age < oldCeiling) animalFax.Name[i] = oldAnimals;
+
+    // if (animalFax[4].Age > oldCeiling)  {
+    //     oldAnimals = animalFax[4].Name;
+    // }
 
 // Misc Console Commands 
     // console.log(JSON.stringify(age)) // Returns String 
@@ -55,10 +67,3 @@ compute();
 // Misc Variables 
     // var oldCeiling = 40;
     // var youngCeiling = 27;
-
-// if (animalFax[i].Age < oldCeiling) animalFax.Name[i] = oldAnimals;
-
-    // if (animalFax[4].Age > oldCeiling)  {
-    //     oldAnimals = animalFax[4].Name;
-    // }
-   
