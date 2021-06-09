@@ -1,0 +1,25 @@
+{
+  "name": "object_oriented_prog_javascript",
+  "version": "1.0.0",
+  "description": "Collection of practice  OOP JavaScript programs run via Node JS.  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianedwards-jpg/Object_Oriented_Prog_JavaScript.git"
+  },
+  "keywords": [
+    "NPM",
+    "Node",
+    "JavaScript",
+    "OOP"
+  ],
+  "author": "Ian Edwards",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ianedwards-jpg/Object_Oriented_Prog_JavaScript/issues"
+  },
+  "homepage": "https://github.com/ianedwards-jpg/Object_Oriented_Prog_JavaScript#readme"
+}
