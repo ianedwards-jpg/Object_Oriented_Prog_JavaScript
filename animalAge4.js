@@ -1,6 +1,6 @@
 var animalFax = [
     { Name: "Giraffe", Age: 9 },
-    { Name: "Piranha",  Age: 27 },
+    { Name: "Piranha",  Age: 21 },
     { Name: "Gazelle",  Age: 31 },
     { Name: "Lion",  Age: 45 },
     { Name: "Leopard",  Age: 67 },
@@ -12,20 +12,18 @@ function compute() {
 var oldCeiling = 40;
 var youngCeiling = 27;
 var targetAge = 29; 
-var name = ''
+var oldNames = ''
 
     for (let i = 0; i < animalFax.length; i++) {
-          console.log(animalFax[i].Name)
+
+        if (animalFax[i].Age > targetAge)  {
+        oldNames.append(animalFax[i].Name);
         }
+                      
+     }
 
-        // if (animalFax[i].Age < oldCeiling) animalFax.Name[i] = name;
+     console.log(oldNames)
 
-    // if (animalFax[4].Age > oldCeiling)  {
-    //     name = animalFax[4].Name;
-    // }
-   
-    
-    
 }
 
 compute();
@@ -33,10 +31,21 @@ compute();
 //AnimalFax.Length == Good || console.log(JSON.stringify(animalFax.length))
 //console.log(JSON.stringify(animalFax[1].Name)) ALWAYS PUT THE .Identifier AFTER THE SQUARE BRACKETS 
 
- // console.log(JSON.stringify(age)) // Returns String 
+
+// Misc Console Commands 
+    // console.log(JSON.stringify(age)) // Returns String 
     // console.log(JSON.stringify(animalFax[1].Name))
     // console.log(JSON.stringify(animalFax[1].Age))
     // console.log(animalFax[1].Name)
     // console.log(animalFax[1].Age)
     // console.log(JSON.stringify(name))
     // console.log(name)
+
+
+
+// if (animalFax[i].Age < oldCeiling) animalFax.Name[i] = oldName;
+
+    // if (animalFax[4].Age > oldCeiling)  {
+    //     oldName = animalFax[4].Name;
+    // }
+   
