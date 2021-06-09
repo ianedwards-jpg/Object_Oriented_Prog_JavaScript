@@ -1,10 +1,10 @@
 // Coding Challenge: Animal Ages 
 
-//Create a list of animals containing their names and ages 
+// Create a list of animals containing their names and ages 
 // Write a program that will return the name of the animal with the LOWEST  age OVER 29
 // Expected output: Lion 
-//This program will take an unordered list, sort by Age, and output the name of the animal with the
-//lowest age over 29
+// This program will take an unordered list, sort by Age, and output the name of the animal with the
+// lowest age over 29
 
 const animalFax = [
     { Name: "Giraffe", Age: 9 },
