@@ -12,12 +12,12 @@ function compute() {
 var oldCeiling = 40;
 var youngCeiling = 27;
 var targetAge = 29; 
-var oldNames = ''
+var oldNames = new Array();
 
     for (let i = 0; i < animalFax.length; i++) {
 
         if (animalFax[i].Age > targetAge)  {
-        oldNames.append(animalFax[i].Name);
+        oldNames.push(animalFax[i].Name);
         }
                       
      }
