@@ -9,19 +9,20 @@ var animalFax = [
 
 function compute() {
 
-
 var targetAge = 29; 
-var oldNames = new Array();
+var youngestOld = '';
+var oldAnimals = new Array();
 
     for (let i = 0; i < animalFax.length; i++) {
 
         if (animalFax[i].Age > targetAge)  {
-        oldNames.push(animalFax[i].Name);
+        oldAnimals.push(animalFax[i].Name);
+        oldAnimals.push(animalFax[i].Age);
         }
                       
      }
 
-     console.log(oldNames)
+     console.log(oldAnimals)
 
 }
 
@@ -44,9 +45,9 @@ compute();
     // var oldCeiling = 40;
     // var youngCeiling = 27;
 
-// if (animalFax[i].Age < oldCeiling) animalFax.Name[i] = oldName;
+// if (animalFax[i].Age < oldCeiling) animalFax.Name[i] = oldAnimals;
 
     // if (animalFax[4].Age > oldCeiling)  {
-    //     oldName = animalFax[4].Name;
+    //     oldAnimals = animalFax[4].Name;
     // }
    
