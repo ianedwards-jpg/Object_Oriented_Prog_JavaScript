@@ -8,11 +8,13 @@
 
 const animalFax = [
     { Name: "Giraffe", Age: 9 },
+    { Name: "Komodo Dragon",  Age: 4 },
     { Name: "Piranha",  Age: 21 },
     { Name: "Gazelle",  Age: 45 },
     { Name: "Lion",  Age: 31 },
     { Name: "Leopard",  Age: 67 },
     { Name: "Ostritch",  Age: 12 },
+    { Name: "Hyena",  Age: 54 },
 ] // defines the animals name and age as objects within an array 
 
 function compute() {
@@ -35,7 +37,7 @@ let oldAnimals = new Array();// In a production setting, you could also use oldA
     youngestOld = oldAnimals[0].Name; // Assigns the Name of the first member of the sorted oldAnimals array to the youngestOld variable
     
     //  console.log(oldAnimals[0].Name)
-     console.log(youngestOld)
+     console.log(youngestOld) // Outputs Lion to console.
 }
 
 compute();
