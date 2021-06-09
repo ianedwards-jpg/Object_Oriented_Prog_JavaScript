@@ -1,8 +1,8 @@
 const animalFax = [
     { Name: "Giraffe", Age: 9 },
     { Name: "Piranha",  Age: 21 },
-    { Name: "Gazelle",  Age: 31 },
-    { Name: "Lion",  Age: 45 },
+    { Name: "Gazelle",  Age: 45 },
+    { Name: "Lion",  Age: 31 },
     { Name: "Leopard",  Age: 67 },
     { Name: "Ostritch",  Age: 12 },
 ]
@@ -21,21 +21,27 @@ let oldAnimals = new Array();
 
         }
 
-        // console.log(animalFax[i].Name)
-        // console.log(animalFax[i].Age)
+        // console.log(animalFax[i].Name) Returns all Names in animalFax array 
+        // console.log(animalFax[i].Age)  Returns all ages in animalFax array 
                       
      }
+
+     oldAnimals.sort((a, b) => (a.Age > b.Age) ? 1 : -1)
 
      for (let i = 0; i < oldAnimals.length; i++) {
 
             // console.log(Math.min(...oldAnimals[i].Age))
-            console.log(oldAnimals[i].Age)
             // console.log(oldAnimals[i].Age)
+            oldAnimals.sort((a, b) => (a.Age > b.Age) ? 1 : -1)
+
+            // console.log(oldAnimals[i])
+            // console.log(oldAnimals[0].Age)
                                 
      }
     
     //  console.log(JSON.stringify(oldAnimals[1]))
-    //  console.log((oldAnimals[1].Age))
+    //  console.log(oldAnimals[0].Age)
+     console.log(oldAnimals[0].Name)
     //  console.log((oldAnimals)) //Returns array of all old animals 
     //  console.log((oldAnimals[0].Name))
     // console.log(Math.min(oldAnimals.length))
