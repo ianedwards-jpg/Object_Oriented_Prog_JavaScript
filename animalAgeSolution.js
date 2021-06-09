@@ -38,7 +38,7 @@ let oldAnimals = new Array();// In a production setting, you could also use oldA
     
     //  console.log(oldAnimals[0].Name)
      console.log(youngestOld) // Outputs Lion to console.
-}
+};
 
 compute();
 
