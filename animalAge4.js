@@ -9,8 +9,7 @@ var animalFax = [
 
 function compute() {
 
-var oldCeiling = 40;
-var youngCeiling = 27;
+
 var targetAge = 29; 
 var oldNames = new Array();
 
@@ -41,7 +40,9 @@ compute();
     // console.log(JSON.stringify(name))
     // console.log(name)
 
-
+// Misc Variables 
+    // var oldCeiling = 40;
+    // var youngCeiling = 27;
 
 // if (animalFax[i].Age < oldCeiling) animalFax.Name[i] = oldName;
 
