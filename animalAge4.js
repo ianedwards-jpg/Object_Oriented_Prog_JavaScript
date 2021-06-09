@@ -1,4 +1,4 @@
-var animalFax = [
+const animalFax = [
     { Name: "Giraffe", Age: 9 },
     { Name: "Piranha",  Age: 21 },
     { Name: "Gazelle",  Age: 31 },
@@ -9,9 +9,9 @@ var animalFax = [
 
 function compute() {
 
-var targetAge = 29; 
-var youngestOld = '';
-var oldAnimals = new Array();
+let targetAge = 29; 
+let youngestOld = '';
+let oldAnimals = new Array();
 
     for (let i = 0; i < animalFax.length; i++) {
 
@@ -20,19 +20,34 @@ var oldAnimals = new Array();
         oldAnimals.push({Name: animalFax[i].Name, Age: animalFax[i].Age})
 
         }
+
+        // console.log(animalFax[i].Name)
+        // console.log(animalFax[i].Age)
                       
      }
 
+     for (let i = 0; i < oldAnimals.length; i++) {
+
+            // console.log(Math.min(...oldAnimals[i].Age))
+            console.log(oldAnimals[i].Age)
+            // console.log(oldAnimals[i].Age)
+                                
+     }
+    
     //  console.log(JSON.stringify(oldAnimals[1]))
-     console.log((oldAnimals[1].Age))
-    //  console.log((oldAnimals))
+    //  console.log((oldAnimals[1].Age))
+    //  console.log((oldAnimals)) //Returns array of all old animals 
+    //  console.log((oldAnimals[0].Name))
+    // console.log(Math.min(oldAnimals.length))
+    // console.log(Math.min.apply(null, oldAnimals.Age))
+
 
 }
 
 compute();
 //End Program 
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////FootNotes///////////////////////////////////////////////////////////////
 
 //Notes
 //console.log(JSON.stringify(animalFax[1].Name)) ALWAYS PUT THE .Identifier AFTER THE SQUARE BRACKETS 
