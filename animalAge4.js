@@ -16,13 +16,24 @@ var oldAnimals = new Array();
     for (let i = 0; i < animalFax.length; i++) {
 
         if (animalFax[i].Age > targetAge)  {
-        oldAnimals.push(animalFax[i].Name);
-        oldAnimals.push(animalFax[i].Age);
+        // oldAnimals.push(animalFax[i].Name + animalFax[i].Age);
+
+        // oldAnimals.push(animalFax[i].Name)
+        // oldAnimals.push(animalFax[i].Age);
+
+        oldAnimals.push({Name: animalFax[i].Name, Age: animalFax[i].Age})
+
+
+        // oldAnimals.push( {Name: animalFax[i].Name} + {Age: animalFax[i].Age});
+
+        // oldAnimals.push( "Name:" + animalFax[i].Name + "Age:" + animalFax[i].Age);
+        // oldAnimals.push(animalFax[i].Age);
         }
                       
      }
 
-     console.log(oldAnimals)
+    //  console.log(JSON.stringify(oldAnimals[1]))
+     console.log((oldAnimals))
 
 }
 
