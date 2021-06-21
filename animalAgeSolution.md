@@ -112,7 +112,7 @@ if (animalFax[i].Age > targetAge)  {
 ```
 
 
-Function compute() so far
+Function compute() so far...
 
 ``` javascript 
 
