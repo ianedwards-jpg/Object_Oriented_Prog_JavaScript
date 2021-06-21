@@ -170,7 +170,7 @@ compute ();
 Try to commit this algorithm to memory, it can be used in a variety of coding challenges. 
 
 
-# Step 8: Assign the first object in the oldAnimals array to the youngestOld variable and console log the result. 
+# Step 8: Assign the first object in the oldAnimals array to the youngestOld variable and log the result. 
 
 We will assign the oldAnimals[0].Name object to the youngestOld variable, this value is our answer.
 
