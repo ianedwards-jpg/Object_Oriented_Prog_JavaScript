@@ -60,8 +60,8 @@ Define your function, add variables and call the function at the bottom of your 
 function compute {
 
 let targetAge = 29; 
-let youngestOld = ''; //Empty array to be filled with animals over age 29
-let oldAnimals = new Array(); // In a production setting, you could also use oldAnimals = [] 
+let oldAnimals = new Array(); // Empty Array to be filled. In a production setting, you could also use oldAnimals = [] 
+let youngestOld = ''; // Is assigned the object at oldAnimals[0].Name;
     ..... 
 } 
 
@@ -88,8 +88,8 @@ Be sure to use "let" to define your starting value in this loop!
 function compute {
 
 let targetAge = 29; 
-let youngestOld = ''; //Empty array to be filled with animals over age 29
-let oldAnimals = new Array(); // In a production setting, you could also use oldAnimals = [] 
+let oldAnimals = new Array(); // Empty Array to be filled. In a production setting, you could also use oldAnimals = [] 
+let youngestOld = ''; // Is assigned the object at oldAnimals[0].Name;
    
     for (let i = 0; i < animals.length; i++) {
         .."If-statement goes here."...
