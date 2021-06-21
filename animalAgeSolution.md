@@ -170,7 +170,8 @@ let youngestOld = ''; // Is assigned the object at oldAnimals[0].Name;
     }
 
     oldAnimals.sort((a, b) => (a.Age > b.Age) ? 1 : -1); // Sorts the animal objects in the oldAnimals array by Age
-    youngestOld = oldAnimals[0].Name; // Assigns the Name of the first member of the sorted oldAnimals array to the youngestOld variable
+    youngestOld = oldAnimals[0].Name; // Assigns the Name of the first member of the sorted oldAnimals array to 
+                                     // the youngestOld variable
     
     //  console.log(oldAnimals[0].Name) // Expected output: Lion 
     console.log(youngestOld); // Outputs youngestOld value to console. Expected output: Lion
