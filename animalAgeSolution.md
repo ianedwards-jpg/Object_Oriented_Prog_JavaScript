@@ -126,7 +126,15 @@ compute ();
 
 # Step 7: Sort the oldAnimals array from min-max
 
-We will use sorting algorythm to order the *oldAnimals* objects from smallest to largest, shown below. 
+Algorythm: 
+
+``` javascript 
+
+array.sort((a, b) => (a.key > b.key) ? 1 : -1);
+
+```
+
+We will use this to order the *oldAnimals* objects from smallest to largest, shown below. 
 
 ``` javascript 
 
@@ -152,8 +160,24 @@ compute ();
 Try to commit this algorythm to memory, it can be used in a variety of coding challenges. 
 
 
-# Step 8: Assign the oldAnimals[0].Name object to the youngestOld variable and console log the result. 
+# Step 8: Assign the first object in the oldAnimals array to the youngestOld variable and console log the result. 
 
+We will assign the oldAnimals[0].Name object to the youngestOld variable, this value is our answer.
+
+``` javascript 
+
+youngestOld = oldAnimals[0].Name;
+
+```
+Lastly, we pass this value into console.log()
+
+``` javascript 
+
+console.log(youngestOld); // Outputs youngestOld value to console. Expected output: Lion
+
+```
+
+The completed function is shown below. 
 
 ``` javascript 
 
