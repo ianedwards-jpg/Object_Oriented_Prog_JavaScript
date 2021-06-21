@@ -20,8 +20,8 @@ const animalFax = [
 function compute() {
 
 let targetAge = 29; 
-let youngestOld = ''; //Empty Array to be filled
-let oldAnimals = new Array(); // In a production setting, you could also use oldAnimals = [] 
+let oldAnimals = new Array(); // Empty Array to be filled. In a production setting, you could also use oldAnimals = [] 
+let youngestOld = ''; // Is assigned the object at oldAnimals[0].Name;
 
     for (let i = 0; i < animalFax.length; i++) {
 

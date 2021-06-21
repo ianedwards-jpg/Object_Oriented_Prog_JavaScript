@@ -44,21 +44,26 @@ const animalFax = [
     { Name: "Hyena",  Age: 54 }
 ]; // defines the animals name and age as objects within an array
 
+
 ```  
 
 Your interviewer will likely expect you to know the difference between "let" and "const", be sure you are able to explain these differences and the correct usage of the two. 
 
 Additionally, it will be useful to know the expected output of the array, 
 
-# Step 2: Define your main function.
+# Step 2: Define your main function and your relevant variables.
 
-Define your function and call the function at the bottom of your program. 
+Define your function, add variables and call the function at the bottom of your program. 
 
 ``` javascript 
 
 function compute {
+
+let targetAge = 29; 
+let youngestOld = ''; //Empty array to be filled with animals over age 29
+let oldAnimals = new Array(); // In a production setting, you could also use oldAnimals = [] 
     ..... 
-}
+} 
 
 compute (); 
 //End Program 
@@ -66,17 +71,28 @@ compute ();
 ``` 
 # Step 3: Intialize your for-loop.
 
-Add a for-loop to your function. This will be the basis for our program, it will be used to iterate over our *animals* object and add any animals over our target age to a new array by way of an if-statement and push function. 
+Add a for-loop to your function. This will be the basis for our program, it will be used to iterate over our *animalFax* object and add any animals over our target age to a new array by way of an if-statement and push function. 
 
-This loop will iterate over the objects in our array based on 
+This loop will iterate over the objects in our *animals* array based on the number of objects in the array itelf. We will identify this value by using the below parameter.
+
+``` javascript 
+
+i < animals.length;
+
+```
 
 Be sure to use "let" to define your starting value in this loop! 
 
 ``` javascript 
 
 function compute {
+
+let targetAge = 29; 
+let youngestOld = ''; //Empty array to be filled with animals over age 29
+let oldAnimals = new Array(); // In a production setting, you could also use oldAnimals = [] 
+   
     for (let i = 0; i < animals.length; i++) {
-        .....
+        .."If-statement goes here."...
     }
 }
 
@@ -84,3 +100,56 @@ compute ();
 //End Program 
 
 ``` 
+# Step 4: Add your if-statement and add "push-results" function.
+
+We will use an if-statement to find the *amimalFax* objects with ages over 29; if so, they're added to the *oldAnimals* array. Be sure to push the *animalFax* objects to *oldAnimals* in object format, see below. 
+
+``` javascript 
+
+function compute {
+
+let targetAge = 29; 
+let oldAnimals = new Array(); // Empty Array to be filled. In a production setting, you could also use oldAnimals = [] 
+let youngestOld = ''; // Is assigned the object at oldAnimals[0].Name;
+   
+    for (let i = 0; i < animals.length; i++) {
+          if (animalFax[i].Age > targetAge)  {
+        oldAnimals.push({Name: animalFax[i].Name, Age: animalFax[i].Age})
+        }; // If the animals Age is over 29, their name and age are added to the oldAnimals array as an object 
+    }
+}
+
+compute (); 
+//End Program 
+
+``` 
+
+# Step 7: Sort the oldAnimals array from min-max
+
+We will use sorting algorythm to order the *oldAnimals* objects from smallest to largest, shown below. 
+
+``` javascript 
+
+function compute {
+
+let targetAge = 29; 
+let oldAnimals = new Array(); // Empty Array to be filled. In a production setting, you could also use oldAnimals = [] 
+let youngestOld = ''; // Is assigned the object at oldAnimals[0].Name;
+   
+    for (let i = 0; i < animals.length; i++) {
+          if (animalFax[i].Age > targetAge)  {
+        oldAnimals.push({Name: animalFax[i].Name, Age: animalFax[i].Age})
+        }; // If the animals Age is over 29, their name and age are added to the oldAnimals array as an object 
+    }
+
+    oldAnimals.sort((a, b) => (a.Age > b.Age) ? 1 : -1); // Sorts the animal objects in the oldAnimals array by Age
+}
+
+compute (); 
+//End Program 
+
+``` 
+Try to commit this algorythm to memory, it can be used in a variety of coding challenges. 
+
+
+# Step 8: Add the oldAnimals[0].Name; object to the youngestOld array 
