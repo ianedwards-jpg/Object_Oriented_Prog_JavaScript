@@ -26,9 +26,9 @@ Expected output: Lion
 
 # Step 1: Define your array of objects. 
 
-We will start by defining our array of animals. It is likely that your interviewer will expect you to create this array yourself; make sure you know the syntax for defining an object-based array by heart and can create it quickly, it will save valuable time.
+We will start by defining our array of animals. It is likely that your interviewer will expect you to create this array yourself; make sure you know the syntax for defining an object-based array by heart and can create one quickly, it will save valuable time.
 
-For the purposes of object-oriented programming (setting it up this way will increase functionality and make your app flow more logically), make sure that you define each array member as an object; this is done by utilizing { key: key-value, key: key-value }, syntax. For the purpose of this program, we will be sorting animal objects by their age; remember to set this key value as an integer in each object. An example array is shown below, using "const" to define the object is recommended over "var". 
+For the purposes of object-oriented programming (setting it up this way will increase functionality and make your app flow more logically), make sure that you define each array member as an object; this is done by utilizing { key: key-value, key: key-value }, syntax. For the purpose of this program, we will be sorting animal objects by their age; remember to set this key value as an integer in each object. An example array is shown below, using "const" to define the object array is recommended over "var". 
 
 ``` javascript 
 
@@ -176,7 +176,8 @@ We will assign the oldAnimals[0].Name object to the youngestOld variable, this v
 
 ``` javascript 
 
-youngestOld = oldAnimals[0].Name;
+youngestOld = oldAnimals[0].Name; // Assigns the Name of the first member of the sorted oldAnimals array to the youngestOld variable
+    
 
 ```
 Lastly, we pass this value into console.log()
