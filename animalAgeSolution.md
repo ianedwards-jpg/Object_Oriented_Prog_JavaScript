@@ -12,7 +12,7 @@ When looking for a job as a software developer, you will almost certainly be req
 
 3. If-Statement: We will be using if-statements to determine whether the animal will be added to the list of animals over the given age. 
 
-4. Push Function: We will be using a push function to add items identified by the if-statement to the above-array.   
+4. Push Function: We will be using a push function to add items identified by the if-statement to the above-age array.   
 
 5. Sort Statements: We will need a sort statement to sort the above-age array by age from youngest to oldest. Knowing this sort statement by heart will save you a lot of time in completing this challenge, it can also be applied to future use cases. 
 
@@ -28,7 +28,7 @@ Expected output: Lion
 
 We will start by defining our array of animal objects. It is likely that your interviewer will expect you to create this array yourself; make sure you know the syntax for defining an object-based array by heart and can create one quickly, it will save valuable time.
 
-For the purposes of object-oriented programming (setting it up this way will increase functionality and make your app flow more logically), make sure that you define each array member as an object; this is done by utilizing { key: key-value, key: key-value }, syntax. For the purpose of this program, we will be sorting animal objects by their age; remember to set this key value as an integer in each object. An example array is shown below; using "const" to define the object array is recommended rather than "var". 
+For the purposes of object-oriented programming (setting your app up this way will increase functionality and make the app flow more logically), make sure that you define each array member as an object; this is done by utilizing { key: key-value, key: key-value }, syntax. For the purpose of this program, we will be sorting animal objects by their age; remember to set this key value as an integer in each object. An example array is shown below; using "const" to define the object array is recommended rather than "var". 
 
 ``` javascript 
 
@@ -46,7 +46,7 @@ const animalFax = [
 
 ```  
 
-Your interviewer will most likely expect you to know the difference between "let" and "const", be sure you are able to explain these differences and the correct usage of the two.
+Your interviewer will most likely expect you to know the difference between "var", "let", and "const", be sure you are able to explain these differences and the correct usage of each.
 
 Additionally, it will be useful to know the expected output of the function before you begin coding. In our case, it is "Lion". 
 
