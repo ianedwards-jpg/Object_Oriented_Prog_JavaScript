@@ -152,7 +152,7 @@ compute ();
 Try to commit this algorythm to memory, it can be used in a variety of coding challenges. 
 
 
-# Step 8: Assign the oldAnimals[0].Name; object to the youngestOld variable and console log the result. 
+# Step 8: Assign the oldAnimals[0].Name object to the youngestOld variable and console log the result. 
 
 
 ``` javascript 
