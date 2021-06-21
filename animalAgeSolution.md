@@ -134,7 +134,7 @@ compute ();
 
 ``` 
 
-# Step 7: Sort the oldAnimals array from min-max
+# Step 7: Sort the oldAnimals array from (Min-Max)
 
 Sorting Algorithm (Min-Max): 
 
