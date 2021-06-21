@@ -20,7 +20,7 @@ Lets get started! The challenge is defined below.
 
 # Coding Challenge: Animal Ages 
 
-Create a list of animals containing their names and ages 
+Create a list of animals containing their names and ages.
 Write a program that will return the name of the animal with the LOWEST age OVER 29.
 
 Expected output: Lion
