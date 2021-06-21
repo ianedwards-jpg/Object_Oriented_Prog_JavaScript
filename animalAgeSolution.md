@@ -152,4 +152,36 @@ compute ();
 Try to commit this algorythm to memory, it can be used in a variety of coding challenges. 
 
 
-# Step 8: Add the oldAnimals[0].Name; object to the youngestOld array 
+# Step 8: Assign the oldAnimals[0].Name; object to the youngestOld variable and console log the result. 
+
+
+``` javascript 
+
+function compute {
+
+let targetAge = 29; 
+let oldAnimals = new Array(); // Empty Array to be filled. In a production setting, you could also use oldAnimals = [] 
+let youngestOld = ''; // Is assigned the object at oldAnimals[0].Name;
+   
+    for (let i = 0; i < animals.length; i++) {
+          if (animalFax[i].Age > targetAge)  {
+        oldAnimals.push({Name: animalFax[i].Name, Age: animalFax[i].Age})
+        }; // If the animals Age is over 29, their name and age are added to the oldAnimals array as an object 
+    }
+
+    oldAnimals.sort((a, b) => (a.Age > b.Age) ? 1 : -1); // Sorts the animal objects in the oldAnimals array by Age
+    youngestOld = oldAnimals[0].Name; // Assigns the Name of the first member of the sorted oldAnimals array to the youngestOld variable
+    
+    //  console.log(oldAnimals[0].Name) // Expected output: Lion 
+    console.log(youngestOld); // Outputs youngestOld value to console. Expected output: Lion
+};
+}
+
+compute (); 
+//End Program 
+
+``` 
+
+With that, we are done! Run your code in an online editor, Visual Studio Code or another console-based environment to find the result. If successful, the console should output "Lion". You can find the complete JS code on GitHub via the link below. 
+
+Page on GitHub: https://github.com/ianedwards-jpg/Object_Oriented_Prog_JavaScript/blob/main/animalAgeSolution.js
