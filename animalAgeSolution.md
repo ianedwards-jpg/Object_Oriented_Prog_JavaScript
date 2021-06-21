@@ -6,15 +6,15 @@ In this tutorial, we will be writing a simple JavaScript program to sort objects
 
 When looking for a job as a software developer, you will almost certainly be required to complete some sort of coding challenge at some point in the inteview process. The challenge we will be solving today involves sorting animals by their ages and returning the lowest age over a certain value. For the purpose of this tutorial, we will be reviewing...
 
-    1. Object Creation: We will begin with an array in object form. If you are given this coding challenge during an interview, you must be prepared to create this object from scratch off the top of your head. 
+1. Object Creation: We will begin with an array in object form. If you are given this coding challenge during an interview, you must be prepared to create this object from scratch off the top of your head. 
 
-    2. For Loops: We will be using a for loop to iterate over the array to sort the objects (animals) by age. Again, you should know the syntax and implementation of a for-loop on command. 
+2. For Loops: We will be using a for loop to iterate over the array to sort the objects (animals) by age. Again, you should know the syntax and implementation of a for-loop on command. 
 
-    3. If-Statement: We will be using if-statements to determine whether the animal will be added to the list of animals over the given age. 
+3. If-Statement: We will be using if-statements to determine whether the animal will be added to the list of animals over the given age. 
 
-    4. Push Function: We will be using a push function to add items identified by the if-statement to the above-array.   
+4. Push Function: We will be using a push function to add items identified by the if-statement to the above-array.   
 
-    5. Sort Statements: We will need a sort statement to sort the above-age array by age from youngest to oldest. Knowing this statement by heart will save you a ton of time in completing this challenge, it is also just very useful to know. 
+5. Sort Statements: We will need a sort statement to sort the above-age array by age from youngest to oldest. Knowing this statement by heart will save you a ton of time in completing this challenge, it is also just very useful to know. 
 
 Lets get started! The challenge is defined below. 
 
