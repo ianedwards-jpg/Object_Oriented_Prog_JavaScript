@@ -106,6 +106,17 @@ We will use an if-statement to find the *amimalFax* objects with ages over 29; i
 
 ``` javascript 
 
+if (animalFax[i].Age > targetAge)  {
+        oldAnimals.push({Name: animalFax[i].Name, Age: animalFax[i].Age})
+        }; // If the animals Age is ove
+
+```
+
+
+Function compute() so far
+
+``` javascript 
+
 function compute {
 
 let targetAge = 29; 
@@ -126,7 +137,7 @@ compute ();
 
 # Step 7: Sort the oldAnimals array from min-max
 
-Algorythm: 
+Sorting Algorithm (Min-Max): 
 
 ``` javascript 
 
@@ -157,7 +168,7 @@ compute ();
 //End Program 
 
 ``` 
-Try to commit this algorythm to memory, it can be used in a variety of coding challenges. 
+Try to commit this algorithm to memory, it can be used in a variety of coding challenges. 
 
 
 # Step 8: Assign the first object in the oldAnimals array to the youngestOld variable and console log the result. 
