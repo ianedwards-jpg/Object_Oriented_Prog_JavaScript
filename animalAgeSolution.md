@@ -26,9 +26,9 @@ Expected output: Lion
 
 # Step 1: Define your array of objects. 
 
-We will start by defining our array of animals. It is likely that your interviewer will expect you to create this array yourself, make sure you know the syntax for defining an array by heart and can create it quickly, it will save you precious time.
+We will start by defining our array of animals. It is likely that your interviewer will expect you to create this array yourself; make sure you know the syntax for defining an object-based array by heart and can create it quickly, it will save valuable time.
 
-For the purposes of object-oriented programming (setting it up this way will increase functionality and make your app flow more logically), make sure that you define each array member as an object; this is done by utilizing { key: key-value, key: key-value } syntax. For the purpose of this program, we will be sorting animal objects by their age; remember to set this key value as an integer in each object. An example array is shown below, using "const" to define the object is recommended over "var". 
+For the purposes of object-oriented programming (setting it up this way will increase functionality and make your app flow more logically), make sure that you define each array member as an object; this is done by utilizing { key: key-value, key: key-value }, syntax. For the purpose of this program, we will be sorting animal objects by their age; remember to set this key value as an integer in each object. An example array is shown below, using "const" to define the object is recommended over "var". 
 
 ``` javascript 
 
@@ -52,7 +52,7 @@ Additionally, it will be useful to know the expected output of the array before 
 
 # Step 2: Define your main function and your relevant variables.
 
-Define your function, add variables and call the function at the bottom of your program. 
+Define your function, add variables (use *let* within functions if possible) and call the function at the bottom of your program. 
 
 ``` javascript 
 
