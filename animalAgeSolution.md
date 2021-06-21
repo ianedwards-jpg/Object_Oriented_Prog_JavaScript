@@ -1,4 +1,4 @@
-# Coding Challenge Tutorial: Animal Age Sort
+# Coding Challenge Tutorial: Sort Animals By Age 
 
 In this tutorial, we will be writing a simple JavaScript program to sort objects by their integer values. Be warned, this tutorial is extremely detailed, but following these steps will ensure your success in completing this challenge. 
 
