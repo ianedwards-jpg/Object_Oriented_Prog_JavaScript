@@ -6,7 +6,7 @@ In this tutorial, we will be writing a simple JavaScript program to sort objects
 
 When looking for a job as a software developer, you will almost certainly be required to complete some sort of coding challenge at some point in the inteview process. The challenge we will be solving today involves sorting animals by their ages and returning the lowest age over a certain value. For the purpose of this tutorial, we will be reviewing...
 
-1. Object Creation: We will begin with an array in object form. If you are given this coding challenge during an interview, you must be prepared to create this object from scratch off the top of your head. 
+1. Object Creation: We will begin by defining an array of objects. If you are given this coding challenge during an interview, you must be prepared to create this array with correct object syntax and relevant properties off the top of your head. 
 
 2. For Loops: We will be using a for loop to iterate over the array to sort the objects (animals) by age. Again, you should know the syntax and implementation of a for-loop on command. 
 
@@ -14,7 +14,7 @@ When looking for a job as a software developer, you will almost certainly be req
 
 4. Push Function: We will be using a push function to add items identified by the if-statement to the above-array.   
 
-5. Sort Statements: We will need a sort statement to sort the above-age array by age from youngest to oldest. Knowing this statement by heart will save you a ton of time in completing this challenge, it is also just very useful to know. 
+5. Sort Statements: We will need a sort statement to sort the above-age array by age from youngest to oldest. Knowing this sort statement by heart will save you a lot of time in completing this challenge, it can also be applied to future use cases. 
 
 Lets get started! The challenge is defined below. 
 
@@ -29,7 +29,7 @@ Expected output: Lion
 
 We will start by defining our array of animals. It is likely that your interviewer will expect you to create this array yourself, make sure you know the syntax for defining an array by heart and can create it quickly, it will save you precious time.
 
-For the purposes of object-oriented programming (setting it up this way will increase functionality and make your app flow more logically), make sure that you define each array member as an object; this is done by utilizing { key: key-value, key: key-value } syntax. An example array is shown below, using "const" to define the object is recommended over "var". 
+For the purposes of object-oriented programming (setting it up this way will increase functionality and make your app flow more logically), make sure that you define each array member as an object; this is done by utilizing { key: key-value, key: key-value } syntax. For the purpose of this program, we will be sorting animal objects by their age; remember to set this key value as an integer in each object. An example array is shown below, using "const" to define the object is recommended over "var". 
 
 ``` javascript 
 
@@ -47,9 +47,9 @@ const animalFax = [
 
 ```  
 
-Your interviewer will likely expect you to know the difference between "let" and "const", be sure you are able to explain these differences and the correct usage of the two. 
+Your interviewer will most likely expect you to know the difference between "let" and "const", be sure you are able to explain these differences and the correct usage of the two.
 
-Additionally, it will be useful to know the expected output of the array, 
+Additionally, it will be useful to know the expected output of the array before you begin coding. In our case, it is "Lion". 
 
 # Step 2: Define your main function and your relevant variables.
 
