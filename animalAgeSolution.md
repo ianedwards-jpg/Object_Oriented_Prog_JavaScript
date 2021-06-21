@@ -176,8 +176,7 @@ We will assign the oldAnimals[0].Name object to the youngestOld variable, this v
 
 ``` javascript 
 
-youngestOld = oldAnimals[0].Name; // Assigns the Name of the first member of the sorted oldAnimals array to the youngestOld variable
-    
+youngestOld = oldAnimals[0].Name; // Assign the Name of the first member of the sorted oldAnimals array to the youngestOld variable
 
 ```
 Lastly, we pass this value into console.log()
